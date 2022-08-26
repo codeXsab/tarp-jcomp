@@ -1,0 +1,380 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.FirstDiv {
+  /* background-color: #708238 !important; */
+  /* background-color: #f21170 !important; */
+  background-color: #fc427b !important;
+}
+
+/*****Styling Navbar*****/
+
+.nav-wrapper {
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+}
+
+.custom-nav {
+  /* display: flex; */
+}
+.custom-navbar-items {
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 20px;
+  color: white;
+}
+
+.our-team {
+  float: right;
+}
+
+/***********************/
+
+/*******Section-2*******/
+
+.section-2 {
+  background-color: #181327;
+}
+
+.section-2-heading {
+  font-family: "Montserrat", sans-serif;
+  color: goldenrod;
+  padding-top: 100px;
+}
+
+.section-2-content {
+  font-family: "Merriweather", serif;
+  color: white;
+  margin: 40px 100px 0px 100px;
+  text-align: center;
+  font-size: x-large;
+  padding-bottom: 100px;
+}
+
+/***********************/
+
+.Heading {
+  color: white;
+  font-size: xx-large;
+  /* font-family: ubuntu; */
+  text-align: center;
+  display: inline-block;
+  margin-left: 32.25%;
+  margin-right: auto;
+}
+
+.flex-container-title {
+  position: absolute;
+  display: flex; /* Specifies the container as a flexbox container */
+  justify-content: space-around; /* justifies flex container's items with respect to the start of the main axis */
+  margin: 300px 250px 0px 100px;
+  align-items: center;
+}
+
+.title-flex-item-1 {
+  color: white;
+  font-size: 38px;
+  flex-basis: 550px;
+  font-weight: bold;
+  margin-left: 200px;
+  margin-right: 400px;
+  /* flex: 3; */
+}
+
+.Introduction {
+  color: white;
+  font-size: large;
+  margin-top: 10px;
+}
+
+.title-flex-item-2 {
+  width: 250px;
+  height: 240px;
+}
+
+/****** Styling cards *****/
+
+.flex-container-card {
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  margin: 100px 250px 100px 0px;
+}
+
+.card-flex-item-1 {
+  font-size: xx-large;
+  flex-basis: 550px;
+}
+
+.card-flex-item-2 {
+  width: 250px;
+  height: 240px;
+}
+
+.card-title {
+  font-family: "Montserrat", sans-serif;
+}
+
+.card-content {
+  padding-top: 3px;
+  padding-bottom: 5px;
+  font-size: 20px;
+  font-family: "Merriweather", serif;
+}
+
+/*************************/
+
+/*** Styling transitions ***/
+
+.transition {
+  font-size: larger;
+  text-align: center;
+  /* margin-top: 100px; */
+}
+
+.transition-heading {
+  padding-top: 80px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+}
+
+/***************************/
+
+/****** Styling footer *****/
+
+.Footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.Footer-item {
+}
+
+/*************************/
+
+.reduce-to-icon {
+  height: 33px;
+  padding-bottom: 3px;
+}
+
+.reduce-to-img {
+  height: 50px;
+  padding-bottom: 6px;
+}
+
+/** section-3 **/
+
+.section-3 {
+  /* background-color: #181327; */
+}
+
+/**************/
+
+/** buttons **/
+
+.loading-button {
+  margin-right: 10px;
+}
+
+/*************/
+
+.tech-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+/********/
+
+.section-4-heading {
+  font-family: "Montserrat", sans-serif;
+  color: goldenrod;
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+
+.iconCardDiv {
+  color: white;
+  padding-bottom: 50px;
+}
+
+/********* MyNav ********/
+
+.flex-container-my-nav {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  background-color: #181327;
+  padding-bottom: 15px;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+}
+
+.my-nav-flex-item-1 {
+  margin: 13px 0px 0px 20px;
+  
+}
+
+.my-nav-flex-item-2 {
+  text-decoration: none;
+  margin: 13px 20px 0px 0px;
+  color: goldenrod;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/***********************/
+
+/**** BouncingArrow ****/
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.arrow {
+  text-align: center;
+  margin: 8% 0;
+}
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+/***********************/
+
+/* heading before form */
+
+.heading-before-form {
+  /* font-size: 1.5em; */
+  font-family: 'Merriweather Sans', sans-serif;
+  text-align: center;
+  margin-left: 1%;
+  margin-bottom: 2%;
+}
+
+/***********************/
+
+/******** Form *********/
+
+.form-containter-grid {
+  display: grid;
+  justify-items: center;
+  /* flex-direction: column; */
+  /* justify-content: space-between; */
+}
+
+.form-flex-item-common {
+  /* justify-content: center; */
+  /* width: 50%; */
+}
+
+.form-grid-item-1 {
+  margin-top: 3%;
+  margin-bottom: 0.5%;
+  text-align: center;
+  width: 50%;
+  font-size: x-large;
+}
+
+.form-grid-item-2 {
+  width: 30%;
+}
+
+.form-grid-item-3 {
+  margin-top: 3%;
+  margin-bottom: 1.5%;
+  text-align: center;
+  width: 50%;
+  font-size: x-large;
+}
+
+.form-grid-item-4 {
+  display: grid;
+  grid-template-columns: 1fr 0.5fr 1fr;
+  width: 100%;
+}
+
+.form-grid-item-5 {
+  margin-top: 3%;
+  margin-bottom: 1.5%;
+  text-align: center;
+  width: 50%;
+  font-size: x-large;
+}
+
+.form-grid-item-4-sub-item-2 {
+  /* display: grid; */
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  /* text-align: center; */
+  margin-top: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 90%;
+}
+
+.form-grid-item-6 {
+  width: 25%;
+  margin-bottom: 2%;
+}
+
+.form-grid-item-7 {
+  margin-bottom: 5%;
+}
+
+/***********************/
+
+.heading-div-form-page {
+  /* position: absolute; */
+  font-family: 'Merriweather Sans', sans-serif;
+  text-align: center;
+  padding-top: 125px;
+}
+
+.form-grid-item-radio-container {
+  width: 15%;
+}
+
+.form-grid-item-radio-eng {
+  float: left;
+  /* padding-top: -5px; */
+  margin-top: 6px;
+  margin-right: 5px;
+}
+
+.form-grid-item-radio-hin {
+  float: right;
+  margin-top: 7px;
+  margin-right: 4px;
+  /* padding-right: 2px;  */
+}
+
+.form-grid-item-radio-eng-text {
+  float: left;
+}
+
+.form-grid-item-radio-hin-text {
+  float: right;
+  padding-top: 2px;
+}
